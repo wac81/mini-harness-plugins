@@ -16,3 +16,9 @@
 ## 维护和许可
 
 [上架指南](CONTRIBUTING.md)列出了提交方式。每个条目链接到原作者固定提交，ZIP 保留上游技能内容和许可。Last30Days 包省略了文档用的演示图片和音频。各插件按自己的许可证分发。
+
+## 自动上架
+
+[同步工作流](.github/workflows/sync-catalog.yml)每天计划在北京时间 10:17 检查 [上游来源](sources.json)。当前跟踪 Last30Days 的稳定 Release、Humanizer-zh、Obsidian 官方 Skill 目录和 Anthropic 的办公 Skill。发现新条目或实质更新后，工作流检查许可证摘要、固定提交、Skill 格式和包完整性，通过后直接推送到 `main`。客户端下次刷新时即读到更新。工作流也支持立即运行。
+
+目录变化只发布插件条目和安装包。用户在各自的项目里选择安装及启用。

@@ -1,0 +1,44 @@
+[
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "ref": "latest-release",
+    "category": "research",
+    "author": "Matt Van Horn",
+    "license": "MIT",
+    "license_file": "LICENSE",
+    "license_sha256": "31803213a789825dc419de43542381e1d570b4408cf2bcf2e8a9947a6d3fd2ab",
+    "paths": ["skills/last30days"],
+    "omit": ["assets/"]
+  },
+  {
+    "repo": "op7418/Humanizer-zh",
+    "ref": "main",
+    "category": "writing",
+    "author": "歸藏 (op7418)",
+    "license": "MIT",
+    "license_file": "LICENSE",
+    "license_sha256": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7",
+    "paths": [""],
+    "single_file": true
+  },
+  {
+    "repo": "obsidianmd/obsidian-skills",
+    "ref": "main",
+    "category": "writing",
+    "author": "Obsidian / Steph Ango",
+    "license": "MIT",
+    "license_file": "LICENSE",
+    "license_sha256": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567",
+    "discover": "plugins/obsidian/skills"
+  },
+  {
+    "repo": "anthropics/skills",
+    "ref": "main",
+    "category": "office",
+    "author": "Anthropic",
+    "license": "Apache-2.0",
+    "license_file": "{skill}/LICENSE.txt",
+    "license_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "paths": ["skills/pptx", "skills/xlsx", "skills/pdf", "skills/docx"]
+  }
+]
