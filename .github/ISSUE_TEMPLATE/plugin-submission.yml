@@ -1,0 +1,30 @@
+name: 插件投稿 / Plugin submission
+description: Submit a Skill for the Mini Harness plugin market.
+title: "[Plugin] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: SKILL.md 源码链接 / Source URL
+      description: Link to the file at a full Git commit SHA in a public GitHub repo.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: 许可证 / License
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 用途、工具和依赖 / Task, tools, and dependencies
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: 试用命令和产物 / Example and result
+      description: Include a reproducible example input and a redacted result or screenshot.
+    validations:
+      required: true
