@@ -1,0 +1,154 @@
+{
+  "schema": 2,
+  "plugins": [
+    {
+      "id": "last30days",
+      "version": "4.2.0",
+      "category": "research",
+      "author": "Matt Van Horn",
+      "license": "MIT",
+      "title": {
+        "zh": "Last30Days · 近 30 天调研",
+        "en": "Last30Days"
+      },
+      "description": {
+        "zh": "用上游引擎汇总最近的社区讨论，附来源、日期和互动数据。需要 Python 3.12+，覆盖范围取决于已配置的数据源。",
+        "en": "Research recent community discussion with the upstream engine, citations, dates, and engagement signals. Requires Python 3.12+; coverage varies by configured sources."
+      },
+      "example": {
+        "zh": "最近 30 天，开发者怎样评价本地运行的语音转写工具？给出具体讨论、日期和链接。",
+        "en": "What are developers saying about local transcription tools in the last 30 days? Include dates and source links."
+      },
+      "source": {
+        "repo": "mvanhorn/last30days-skill",
+        "commit": "f32f4402bc0d5526495f37e236411d0ff0256376",
+        "path": "skills/last30days/SKILL.md",
+        "sha256": "3297090027c4bd87bf0463f2833f5e8c9addfef33607ad1b4807068e624a5ed8",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
+          "path": "packages/last30days.zip",
+          "sha256": "9449e233e09e664d8dd0cb27401eefe9b557a403301249b8b9bb80d8381de788"
+        }
+      }
+    },
+    {
+      "id": "humanizer-zh",
+      "version": "1.0.0",
+      "category": "writing",
+      "author": "歸藏 (op7418)",
+      "license": "MIT",
+      "title": {
+        "zh": "Humanizer-zh · 中文润色",
+        "en": "Humanizer-zh"
+      },
+      "description": {
+        "zh": "编辑已有中文稿件，精简套话和重复，保留原有事实、语气和作者声音。",
+        "en": "Edit an existing Chinese draft for clarity and natural rhythm while preserving its facts and voice."
+      },
+      "example": {
+        "zh": "润色附件里的中文公告。保留事实和原有语气，列出三处改动及理由。",
+        "en": "Polish the attached Chinese announcement. Preserve facts and tone, and explain three edits."
+      },
+      "source": {
+        "repo": "op7418/Humanizer-zh",
+        "commit": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
+        "path": "SKILL.md",
+        "sha256": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df"
+      }
+    },
+    {
+      "id": "obsidian-markdown",
+      "version": "1.0.0",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "zh": "Obsidian Markdown · 知识库笔记",
+        "en": "Obsidian Markdown"
+      },
+      "description": {
+        "zh": "按 Obsidian 语法整理笔记，维护双链、嵌入、属性和提示块。",
+        "en": "Create and update vault notes with wikilinks, embeds, properties, and callouts."
+      },
+      "example": {
+        "zh": "把这些会议纪要整理到当前 Obsidian 知识库，加上属性、相关笔记双链和行动项。",
+        "en": "Turn the meeting notes into an Obsidian note with properties, backlinks, and action items."
+      },
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/obsidian-markdown/SKILL.md",
+        "sha256": "f1c4ff5257d3f9743af797d755cabeef129f553704d5ff67ebf1239f9569f081",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
+          "path": "packages/obsidian-markdown.zip",
+          "sha256": "fc6c3d4b4dc88e236389d70c56d188ced2fe5492e4c8763ebd99cb5fc9b6c4f0"
+        }
+      }
+    },
+    {
+      "id": "pptx",
+      "version": "1.0.0",
+      "category": "office",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "title": {
+        "zh": "Anthropic PPTX · 演示文稿",
+        "en": "Anthropic PPTX"
+      },
+      "description": {
+        "zh": "用 Anthropic 原版脚本创建、修改或校验 PowerPoint。生成需要 Node.js / PptxGenJS，渲染预览还需要 LibreOffice。",
+        "en": "Create, edit, or validate PowerPoint decks with Anthropic’s scripts. Authoring uses Node.js and PptxGenJS; rendering also needs LibreOffice."
+      },
+      "example": {
+        "zh": "按附件里的公司模板生成一份 6 页项目进度汇报，保留可编辑文本和图表。",
+        "en": "Use the attached company template to build a six-slide update with editable text and charts."
+      },
+      "source": {
+        "repo": "anthropics/skills",
+        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "path": "skills/pptx/SKILL.md",
+        "sha256": "1b54d26d78bcb35e3c6a2c723615c4a33c29732de2e5b29c9ecf10b34fb1a2e5",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
+          "path": "packages/pptx.zip",
+          "sha256": "69700dd64f144ead0f6e8851ee8ffa12d7f984a82352105fa672513dfdcc84a1"
+        }
+      }
+    },
+    {
+      "id": "xlsx",
+      "version": "1.0.0",
+      "category": "office",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "title": {
+        "zh": "Anthropic XLSX · Excel 工作簿",
+        "en": "Anthropic XLSX"
+      },
+      "description": {
+        "zh": "用 Anthropic 原版工作流清洗、分析和编辑工作簿。需要 Python / openpyxl，公式重算使用 LibreOffice。",
+        "en": "Clean, analyze, and edit workbooks using Anthropic’s workflow. Requires Python and openpyxl; formula recalculation uses LibreOffice."
+      },
+      "example": {
+        "zh": "把附件里的账表按月份归类汇总，保留明细和可重算的公式，输出 XLSX。",
+        "en": "Summarize the attached ledger by month and return an XLSX with source detail and recalculable formulas."
+      },
+      "source": {
+        "repo": "anthropics/skills",
+        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "path": "skills/xlsx/SKILL.md",
+        "sha256": "f32b1c2b5d5d31e02964df110d6489613d9345f86830c118cfe24159d8448ce6",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
+          "path": "packages/xlsx.zip",
+          "sha256": "1844d4858fc29427797f317291beb883a3a2dafb5496567f47b55a6df3b9f84a"
+        }
+      }
+    }
+  ]
+}
