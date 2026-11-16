@@ -149,6 +149,230 @@
           "sha256": "1844d4858fc29427797f317291beb883a3a2dafb5496567f47b55a6df3b9f84a"
         }
       }
+    },
+    {
+      "id": "defuddle",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "en": "defuddle"
+      },
+      "description": {
+        "en": "Extract clean Markdown from HTML pages with Defuddle CLI."
+      },
+      "example": {
+        "en": "Show me a practical way to use defuddle in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/defuddle/SKILL.md",
+        "sha256": "58902192d0433d133a35efc1b46cc49ceef891a465f9fd4e709d6e824c9561fb",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/defuddle.zip",
+          "sha256": "603e0ea4cb808ee3b05e1978413be687c3c348cc22ac511beb4850e7d95b5131",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "json-canvas",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "en": "json-canvas"
+      },
+      "description": {
+        "en": "Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian."
+      },
+      "example": {
+        "en": "Show me a practical way to use json-canvas in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/json-canvas/SKILL.md",
+        "sha256": "4db4e69eea910b598c249e41bcdda85a70856348adaf11c35371198e258d50a6",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/json-canvas.zip",
+          "sha256": "23288116357ae83f8a9262bff600c496edbfe0a8c001938abbf5410a28efdc66",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "knap",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "en": "knap"
+      },
+      "description": {
+        "en": "Render Markdown from templates and structured data using Knap CLI. Use when the user asks to apply a Knap template, turn JSON or CSV data into notes, batch-generate Markdown files, or format Defuddle output into a note."
+      },
+      "example": {
+        "en": "Show me a practical way to use knap in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/knap/SKILL.md",
+        "sha256": "252d2146d9acc76e1b184bd75e4212a3eae3a8b2a77ad8c578b1d8d6a813e22a",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/knap.zip",
+          "sha256": "7671eae746bd21d0465792abd37057699fe164cc41a1aef8f5c526b26bd94f9c",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "obsidian-bases",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "en": "obsidian-bases"
+      },
+      "description": {
+        "en": "Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, kanban boards, filters, or formulas in Obsidian."
+      },
+      "example": {
+        "en": "Show me a practical way to use obsidian-bases in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/obsidian-bases/SKILL.md",
+        "sha256": "7a1659e2c00e7b74c8767002213dd977967ddd30dd15a7f33b693e783a4546e9",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/obsidian-bases.zip",
+          "sha256": "ba0f7560c7141950e7bc9bf3bd47583374f219de1dc4687d28765feea5f9a492",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "obsidian-cli",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "en": "obsidian-cli"
+      },
+      "description": {
+        "en": "Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform va"
+      },
+      "example": {
+        "en": "Show me a practical way to use obsidian-cli in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/obsidian-cli/SKILL.md",
+        "sha256": "28f66289b1cf1d245807766d4dafb6f5f76eadc986fe4a7f224da51f50aa7524",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/obsidian-cli.zip",
+          "sha256": "b65c9308db0089745122f4d6e1f44816a0cd0941fc1898d668a063862e892568",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "obsidian-headless",
+      "category": "writing",
+      "author": "Obsidian / Steph Ango",
+      "license": "MIT",
+      "title": {
+        "en": "obsidian-headless"
+      },
+      "description": {
+        "en": "Sync and publish Obsidian vaults from the command line with Obsidian Headless (`ob`), without the desktop app. Use when the user wants to set up or run Obsidian Sync or Obsidian Publish on a server, in CI, or from a terminal, or change a vault's Sync or Publish settings."
+      },
+      "example": {
+        "en": "Show me a practical way to use obsidian-headless in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "obsidianmd/obsidian-skills",
+        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "path": "plugins/obsidian/skills/obsidian-headless/SKILL.md",
+        "sha256": "8baf2318c12a085e260684ccb4f95012d7d8217f677188f58b1de22f31db4754",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/obsidian-headless.zip",
+          "sha256": "b322c45396a967aa4a12b28c7ecc2436025d6db84062f814db32d4cebd3a8f99",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "pdf",
+      "category": "office",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "title": {
+        "en": "pdf"
+      },
+      "description": {
+        "en": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user men"
+      },
+      "example": {
+        "en": "Show me a practical way to use pdf in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "anthropics/skills",
+        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "path": "skills/pdf/SKILL.md",
+        "sha256": "d1c7caf5f35eb7d37877dd7fc33a095037be2b34fb5d2f7f4d43bde3165bb4ee",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/pdf.zip",
+          "sha256": "00f1821b91f830045dacf5b2e1ddda7d54c350c88d6edb12131311b0010fc6cf",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
+    },
+    {
+      "id": "docx",
+      "category": "office",
+      "author": "Anthropic",
+      "license": "Apache-2.0",
+      "title": {
+        "en": "docx"
+      },
+      "description": {
+        "en": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorgan"
+      },
+      "example": {
+        "en": "Show me a practical way to use docx in this project."
+      },
+      "version": "1.0.0",
+      "source": {
+        "repo": "anthropics/skills",
+        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "path": "skills/docx/SKILL.md",
+        "sha256": "e094096faf2861e4dbed2dd4ba1960dbc1a137f8a71403b22bf1e4df41b31051",
+        "archive": {
+          "repo": "wac81/mini-harness-plugins",
+          "path": "packages/auto/docx.zip",
+          "sha256": "efc26194a8430caf3ffb1a0f4b2306729a328582afd9195871379ed44e35a315",
+          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+        }
+      }
     }
   ]
 }
