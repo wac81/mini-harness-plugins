@@ -3,7 +3,7 @@
   "plugins": [
     {
       "id": "last30days",
-      "version": "4.2.0",
+      "version": "4.3.0",
       "category": "research",
       "author": "Matt Van Horn",
       "license": "MIT",
@@ -21,14 +21,14 @@
       },
       "source": {
         "repo": "mvanhorn/last30days-skill",
-        "commit": "f32f4402bc0d5526495f37e236411d0ff0256376",
+        "commit": "b515880ff9b549ff0517103fe20bf6664a5538b9",
         "path": "skills/last30days/SKILL.md",
-        "sha256": "3297090027c4bd87bf0463f2833f5e8c9addfef33607ad1b4807068e624a5ed8",
+        "sha256": "8e1e9cd23b78788ce5e7f0959109cba420231cafdb4e1f68564b380b3d8ee3dc",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
-          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
-          "path": "packages/last30days.zip",
-          "sha256": "9449e233e09e664d8dd0cb27401eefe9b557a403301249b8b9bb80d8381de788"
+          "path": "packages/auto/last30days.zip",
+          "sha256": "579e94434faaedcd279ee7c47b59b6eac2b7e734a5d76dc09926c2e98fe859e2",
+          "commit": "7cf0f3e360edcb99e822b2f2d1e5132021afae9d"
         }
       }
     },
@@ -90,7 +90,7 @@
     },
     {
       "id": "pptx",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "office",
       "author": "Anthropic",
       "license": "Apache-2.0",
@@ -108,20 +108,20 @@
       },
       "source": {
         "repo": "anthropics/skills",
-        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
         "path": "skills/pptx/SKILL.md",
-        "sha256": "1b54d26d78bcb35e3c6a2c723615c4a33c29732de2e5b29c9ecf10b34fb1a2e5",
+        "sha256": "598c981d93f2173b251f86a4bc94e9fb4e4f5ddaa314ba2dd4eca24b7a07808e",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
-          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
-          "path": "packages/pptx.zip",
-          "sha256": "69700dd64f144ead0f6e8851ee8ffa12d7f984a82352105fa672513dfdcc84a1"
+          "path": "packages/auto/pptx.zip",
+          "sha256": "1863a4c31b79d74123c60fa5b2fa57d67667149ff5095dd88e7a78fda3893e1f",
+          "commit": "7cf0f3e360edcb99e822b2f2d1e5132021afae9d"
         }
       }
     },
     {
       "id": "xlsx",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "office",
       "author": "Anthropic",
       "license": "Apache-2.0",
@@ -139,14 +139,14 @@
       },
       "source": {
         "repo": "anthropics/skills",
-        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
         "path": "skills/xlsx/SKILL.md",
         "sha256": "f32b1c2b5d5d31e02964df110d6489613d9345f86830c118cfe24159d8448ce6",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
-          "commit": "d6ea7df2f1614e2bab143616e846f395fd6aaa77",
-          "path": "packages/xlsx.zip",
-          "sha256": "1844d4858fc29427797f317291beb883a3a2dafb5496567f47b55a6df3b9f84a"
+          "path": "packages/auto/xlsx.zip",
+          "sha256": "330187099ca279217bb61383d0fc44527c1a9b4285be4733f5e70c7a77c3638b",
+          "commit": "7cf0f3e360edcb99e822b2f2d1e5132021afae9d"
         }
       }
     },
@@ -360,17 +360,17 @@
       "example": {
         "en": "Show me a practical way to use docx in this project."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "repo": "anthropics/skills",
-        "commit": "1780c5e5a552fd4d1c9d6a7b0cab26b0c2bef064",
+        "commit": "e4bb5d960d87126ff3b3a8af1a104b7db67560ba",
         "path": "skills/docx/SKILL.md",
-        "sha256": "e094096faf2861e4dbed2dd4ba1960dbc1a137f8a71403b22bf1e4df41b31051",
+        "sha256": "895d5aa6c4cd98e4aed4c995d846f056f3549086e79bcd6617afea6014f82288",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
           "path": "packages/auto/docx.zip",
-          "sha256": "efc26194a8430caf3ffb1a0f4b2306729a328582afd9195871379ed44e35a315",
-          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+          "sha256": "54551a75bdff292c1f5db7cab715e5c408ab9ab0680f5f1f2552ee8d9784729d",
+          "commit": "7cf0f3e360edcb99e822b2f2d1e5132021afae9d"
         }
       }
     }
