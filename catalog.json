@@ -164,17 +164,17 @@
       "example": {
         "en": "Show me a practical way to use defuddle in this project."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "repo": "obsidianmd/obsidian-skills",
-        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "commit": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
         "path": "plugins/obsidian/skills/defuddle/SKILL.md",
-        "sha256": "58902192d0433d133a35efc1b46cc49ceef891a465f9fd4e709d6e824c9561fb",
+        "sha256": "03f6b519e691cc79290369f05305c1608c0d9f2cfd82e1a8ca430d339b9f862f",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
           "path": "packages/auto/defuddle.zip",
-          "sha256": "603e0ea4cb808ee3b05e1978413be687c3c348cc22ac511beb4850e7d95b5131",
-          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+          "sha256": "62a2b40805f60c80277b48ef81e7836f151555a8e7354ab15ec1b48531911686",
+          "commit": "d65333254d905027493b3cfc94480eed2ce47edb"
         }
       }
     },
@@ -304,17 +304,17 @@
       "example": {
         "en": "Show me a practical way to use obsidian-headless in this project."
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": {
         "repo": "obsidianmd/obsidian-skills",
-        "commit": "398127736bd4ba42d767b1419fee1a927508370b",
+        "commit": "79e85b73ef041fdfb6437ab3824e2fe29eda9244",
         "path": "plugins/obsidian/skills/obsidian-headless/SKILL.md",
-        "sha256": "8baf2318c12a085e260684ccb4f95012d7d8217f677188f58b1de22f31db4754",
+        "sha256": "8359512f18a6891436941774059cca390e9ed0b4bc754cd00826fd2d9c47f5c7",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
           "path": "packages/auto/obsidian-headless.zip",
-          "sha256": "b322c45396a967aa4a12b28c7ecc2436025d6db84062f814db32d4cebd3a8f99",
-          "commit": "6c2ac630854a0e0871275cd0921a000ec3570632"
+          "sha256": "5b03028f1b14c83d04b8584dd22b85cd8ffd113394ebed071b6b48b99cb2f1c2",
+          "commit": "d65333254d905027493b3cfc94480eed2ce47edb"
         }
       }
     },
