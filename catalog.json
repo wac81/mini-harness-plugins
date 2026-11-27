@@ -3,7 +3,7 @@
   "plugins": [
     {
       "id": "last30days",
-      "version": "4.6.0",
+      "version": "4.8.0",
       "category": "research",
       "author": "Matt Van Horn",
       "license": "MIT",
@@ -21,14 +21,14 @@
       },
       "source": {
         "repo": "mvanhorn/last30days-skill",
-        "commit": "64b1f006f800640022ce07f51de5ce56aad34b76",
+        "commit": "3fd946546afddc2096ab955f3abb223ed59f52ce",
         "path": "skills/last30days/SKILL.md",
-        "sha256": "3d7e9d085ad8a6719001b0e053ba31ef1bd6275c55cb3333a3dbd91955adce11",
+        "sha256": "e7c11b3edc535d3f5a12b0e52e1d549d90064b88e6d29a0991cc76cc88860684",
         "archive": {
           "repo": "wac81/mini-harness-plugins",
           "path": "packages/auto/last30days.zip",
-          "sha256": "3818769a77a9e16cce9dbd23bd342ea945eb288a335ae5bdc30a86b915215d8d",
-          "commit": "3b1a6b5f69c89ab3ceed26aabcfb0e59a1744f75"
+          "sha256": "e60bc1cc887adc412d69522c325158d43446143e4242a784729171ab30d90d24",
+          "commit": "16de7a001d0812ff1557d1b76527485501a5fa8f"
         }
       }
     },
